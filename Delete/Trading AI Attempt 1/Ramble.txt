@@ -1,0 +1,3 @@
+I have a working somewhat backtesting trading algo however it curerntly cannnot live trade and can only trade on daily candles
+Ideally i also need it to be able to perform a live scan of the current market and trade on the 1 minute candles
+The algorithm should also be able to decide what stock to trade and what time to trade and be able to trade multiple stocks at the same time
