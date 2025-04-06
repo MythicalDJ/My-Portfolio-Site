@@ -1,61 +1,44 @@
-/* Reset and base styles */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	line-height: 1.6;
-	color: #ffffff;
+	color: #fff;
 	overflow-x: hidden;
-	background-color: #000000;
+	background-color: #000;
 }
-
-.hilighted-text {
-	color: #ffbd38;
-}
-
 .navbar {
 	border-radius: 0 0 25px 25px;
 }
-
 .montserrat-title {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
 }
-
-.rounded-corners {
-	border-radius: 10px;
+.Reflection {
+	font-family: Montserrat, sans-serif;
+	color: #fff;
 }
-
-.Reflection{
-	font-family: "Montserrat", sans-serif;
-	color: white;
-}
-
 .Reflection h3 {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 200;
 	font-size: 1.5rem;
 	color: #ffbd38;
 	margin-top: 2rem;
 }
-
-/* Navigation */
 .navbar {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: rgb(0, 0, 0);
+	background-color: #000;
 	box-shadow: 0 2px 5px rgba(202, 2, 220, 0.465);
 	z-index: 1000;
 }
-
 .nav-content {
 	max-width: 1400px;
 	margin: 0 auto;
@@ -64,9 +47,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-
 .logo {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 1.8rem;
 	font-weight: 700;
 	color: #0647ec;
@@ -75,206 +57,156 @@ body {
 	text-transform: none;
 	letter-spacing: 1px;
 }
-
 .logo:hover {
 	color: #ffbd38;
 }
-
 .nav-links {
 	display: flex;
 	list-style: none;
 	margin-left: auto;
 }
-
 .nav-links li {
 	margin-left: 2rem;
 }
-
 .nav-links a {
 	text-decoration: none;
 	color: #788ed5;
 	font-weight: 500;
 	transition: color 0.3s ease;
 }
-
 .nav-links a:hover {
 	color: #ffbd38;
 }
-
-/* Hero Section */
 .hero {
 	position: absolute;
 	width: 100%;
-	height: 100vh; /* Make hero section full-screen */
+	height: 100vh;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: #ffffff;
+	color: #fff;
 }
-
 .hero-video {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	width: 100%;
 	height: 100%;
-	object-fit: cover; /* Makes sure the video covers everything */
+	object-fit: cover;
 	transform: translate(-50%, -50%);
 	z-index: 0;
 }
-
 .hero2-content {
 	position: absolute;
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	top: 110%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	z-index: 2; /* Puts text above video */
+	z-index: 2;
 	padding: 20px;
 	border-radius: 15px;
 	background-color: rgba(0, 0, 0, 0.9);
 }
-
 .hero2-content h1 {
 	color: #f2b72f;
 	font-size: 3rem;
 	font-weight: 500;
 	background-size: 110% 110%;
 }
-
 .hero2-content p {
-	color: white;
+	color: #fff;
 	font-size: 1.2rem;
 	font-weight: 500;
 	background-size: 110% 110%;
 }
-
-
-
-/* Main Content */
 .main-content {
 	position: relative;
 	z-index: 2;
-	background: #000000;
+	background: #000;
 	margin-top: 100vh;
 }
-
-/* Container */
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 4rem 2rem;
 }
-
-.furtherReadingText{
+.furtherReadingText {
 	margin: auto;
 	align-items: center;
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 100;
 	max-width: fit-content;
 	font-size: 1.4rem;
-	color: #ffffff;
+	color: #fff;
 }
-
-/* Sections */
 section {
 	padding: 4rem 0;
 }
-
 section h2 {
 	text-align: center;
 	margin-bottom: 3rem;
-	color: #ffffff;
+	color: #fff;
 	font-size: 2.5rem;
 	font-weight: 400;
 }
-
-/* About Section */
-
 .main-content {
 	border-radius: 25px 25px 0 0;
 }
-
-.furtherReading p{
-	font-family: "Montserrat", sans-serif;
+.furtherReading p {
+	font-family: Montserrat, sans-serif;
 	font-weight: 100;
 	max-width: 800px;
 	text-align: center;
 	font-size: 1.4rem;
-	color: #ffffff;
-	
+	color: #fff;
 }
-.furtherReading a{
-	font-family: "Montserrat", sans-serif;
-	color:white;
+.furtherReading a {
+	font-family: Montserrat, sans-serif;
+	color: #fff;
 	text-align: center;
 	text-decoration: none;
 }
-
 .about-content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 .about-text {
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 100;
 	max-width: 800px;
 	text-align: justify;
 	font-size: 1.4rem;
-	color: #ffffff;
+	color: #fff;
 }
-
-/* Projects Section */
 .project-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
 	grid-template-rows: 1fr;
 }
-
-.trading-algorithm-card {
-	position: relative; /* Make this the positioning context for the arrow */
-}
-
-.arrow-container {
-	position: absolute;
-	top: -60px; /* Move up from the card */
-	right: -90px; /* Position from the right edge */
-	z-index: 10;
-	pointer-events: none; /* So it doesn't interfere with clicks */
-}
-
-.hero-text{
+.hero-text {
 	background-color: #000000bf;
 	border-radius: 25px;
 }
-
 .project-card {
 	background-size: cover;
 	background-position: center;
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 16/9;
 	width: 100%;
 }
-
-
 .main-content {
 	position: relative;
-	background-color: #000; /* Keep your black background */
-	background-image: url('/Assets/background.png');
+	background-color: #000;
+	background-image: url(https://tobybrooker.pages.dev/Assets/background.png);
 	background-position: left center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-
 }
-
-
-
 .project-card {
 	background: #fafffa;
 	border-radius: 10px;
@@ -283,19 +215,15 @@ section h2 {
 	transition: transform 0.3s ease;
 	border: 2px solid #77264d;
 }
-
 .project-card:hover {
-	transform: translateY(-10px) !important	;
-    transition: transform 0.3s ease; /* Smooth animation */
+	transform: translateY(-10px) !important;
+	transition: transform 0.3s ease;
 	border-color: #ffbd38;
 }
-
-
 .project-card h3 {
 	color: #12317b;
 	margin-bottom: 1rem;
 }
-
 .project-link {
 	display: inline-block;
 	margin-top: 1rem;
@@ -304,115 +232,64 @@ section h2 {
 	font-weight: 500;
 	transition: color 0.3s ease;
 }
-
 .project-link:hover {
 	color: #ffbd38;
 }
-
-/* Skills Section */
 .skills-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 2rem;
 }
-
 .skill-item {
-	color: #000000;
+	color: #000;
 	text-align: center;
 	padding: 2rem;
-	background: #ffffff;
+	background: #fff;
 	border-radius: 10px;
 	box-shadow: 0 4px 6px rgba(18, 49, 123, 0.1);
 	border: 2px solid #12317b;
 }
 .skill-item p {
-	/*Align centered vertically*/
 	display: flex;
 	align-items: center;
 	height: 60%;
 }
-
-
 .skill-item h3 {
 	color: #12317b;
 }
-
 .skill-item:hover {
 	border-color: #ffbd38;
 }
-
 .skill-item i {
 	font-size: 2.5rem;
 	color: #77264d;
 	margin-bottom: 1rem;
 }
-
-/* Contact Section */
 .contact-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
 }
-
-.contact-info {
-	text-align: center;
-}
-
-.contact-info p {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 600;
-	font-size: 1.2rem;
-	margin: 1rem 0;
-	color: #77264d;
-}
-
-.contact-info i {
-	margin-right: 0.5rem;
-	color: #77264d;
-}
-
-.social-links {
-	display: flex;
-	gap: 1.5rem;
-}
-
-.social-links a {
-	color: #12317b;
-	font-size: 1.5rem;
-	transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-	color: #ffbd38;
-}
-
-/* Footer */
 footer {
 	background-color: #12317b;
 	color: #ffebc2;
 	text-align: center;
 	padding: 1.5rem;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
 	.nav-content {
 		flex-direction: column;
 	}
-
 	.nav-links {
 		margin-top: 1rem;
 	}
-
 	.nav-links li {
 		margin: 0 1rem;
 	}
-
 	.hero-content h1 {
 		font-size: 2rem;
 	}
-
 	.hero-content p {
 		font-size: 1.2rem;
 	}
